@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <ImageButton
+        android:id="@+id/button_postres"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="338dp"
+        android:layout_height="148dp"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_bebida"
+        app:layout_constraintVertical_bias="0.368"
+        app:srcCompat="@drawable/menupos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seleccione_uno"
+        android:textColor="#AC09C8"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_comida"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846" />
+
+    <ImageButton
+        android:id="@+id/button_bebida"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="338dp"
+        android:layout_height="148dp"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/button_postres"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_comida"
+        app:srcCompat="@drawable/menubeb"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button_comida"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="338dp"
+        android:layout_height="148dp"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/button_bebida"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/menucom"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
