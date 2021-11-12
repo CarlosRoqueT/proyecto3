@@ -16,6 +16,8 @@ public class comidaes extends AppCompatActivity {
     Toolbar toolbar;
     ImageButton oferta;
     ImageButton destacado;
+    ImageButton comida1;
+    ImageButton comida2;
 
 
     @Override
@@ -39,6 +41,24 @@ public class comidaes extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent =new Intent(comidaes.this, comidades.class);
+                startActivity(intent);
+            }
+        });
+
+        comida1 =(ImageButton)findViewById(R.id.postof1);
+        comida1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(comidaes.this, comida1.class);
+                startActivity(intent);
+            }
+        });
+
+        comida2 =(ImageButton)findViewById(R.id.postof2);
+        comida2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(comidaes.this, comida2.class);
                 startActivity(intent);
             }
         });

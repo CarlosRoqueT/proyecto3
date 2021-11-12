@@ -18,6 +18,7 @@ public class Comidaof extends AppCompatActivity {
     ImageButton especial;
     ImageButton destacado;
     ImageButton comida1;
+    ImageButton comida2;
 
 
     @Override
@@ -50,6 +51,15 @@ public class Comidaof extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent =new Intent(Comidaof.this, comida1.class);
+                startActivity(intent);
+            }
+        });
+
+        comida2 =(ImageButton)findViewById(R.id.postof2);
+        comida2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(Comidaof.this, comida2.class);
                 startActivity(intent);
             }
         });

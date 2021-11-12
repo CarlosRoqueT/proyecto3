@@ -61,37 +61,40 @@
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="247dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="323dp"
         android:fontFamily="serif"
         android:text="*Nachos"
-        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="150dp"
-        android:layout_height="20dp"
-        android:layout_marginStart="26dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="156dp"
         android:fontFamily="serif"
         android:text="*Birria"
         app:layout_constraintBottom_toTopOf="@+id/textView16"
-        app:layout_constraintEnd_toStartOf="@+id/añadibutton"
+        app:layout_constraintEnd_toStartOf="@+id/masbutton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="31dp"
-        android:layout_marginEnd="284dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="156dp"
         android:fontFamily="serif"
         android:text="*Frijoles"
         app:layout_constraintBottom_toTopOf="@+id/textView17"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/añadibutton"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
@@ -99,8 +102,10 @@
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="31dp"
-        android:layout_marginEnd="292dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="322dp"
+        android:layout_marginBottom="44dp"
         android:fontFamily="serif"
         android:text="*Cebolla"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -109,40 +114,15 @@
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
     <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:fontFamily="serif"
-        android:text="*Perejil"
-        app:layout_constraintBottom_toTopOf="@+id/textView14"
-        app:layout_constraintEnd_toStartOf="@+id/masbutton"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="111dp"
-        android:fontFamily="serif"
-        android:text="*Cocoa Hershey"
-        app:layout_constraintBottom_toTopOf="@+id/textView15"
-        app:layout_constraintEnd_toStartOf="@+id/añadibutton"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
-
-    <TextView
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="165dp"
+        android:layout_marginStart="145dp"
         android:layout_marginTop="23dp"
-        android:layout_marginEnd="91dp"
+        android:layout_marginEnd="50dp"
         android:layout_marginBottom="13dp"
         android:fontFamily="serif"
-        android:text="$45"
+        android:text="$65"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/masbutton"
         app:layout_constraintEnd_toEndOf="parent"
@@ -153,14 +133,14 @@
         android:id="@+id/masbutton"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:layout_marginStart="31dp"
+        android:layout_marginStart="250dp"
         android:layout_marginTop="13dp"
         android:layout_marginEnd="22dp"
         android:layout_marginBottom="22dp"
         android:text="+"
         app:layout_constraintBottom_toTopOf="@+id/añadibutton"
         app:layout_constraintEnd_toStartOf="@+id/textView20"
-        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
     <Button
@@ -175,7 +155,8 @@
         app:layout_constraintBottom_toTopOf="@+id/añadibutton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView20"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.49" />
 
     <TextView
         android:id="@+id/textView20"
@@ -195,13 +176,13 @@
         android:id="@+id/añadibutton"
         android:layout_width="94dp"
         android:layout_height="63dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginEnd="67dp"
+        android:layout_marginEnd="15dp"
         android:layout_marginBottom="86dp"
         android:text="Añadir Orden"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
         app:layout_constraintStart_toEndOf="@+id/textView15"
         app:layout_constraintTop_toBottomOf="@+id/menosbutton" />
 
