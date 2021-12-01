@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto3">
+
         <activity
             android:name=".comida2"
             android:exported="true" />
@@ -74,6 +75,9 @@
             android:exported="true" />
         <activity
             android:name=".Menu"
+            android:exported="true" />
+        <activity
+            android:name=".login"
             android:exported="true" />
         <activity
             android:name=".splash"
