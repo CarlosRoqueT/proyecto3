@@ -3,10 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_bebida1.xml" value="0.20520833333333333" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_bebidaof.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_comidaes.xml" value="0.20520833333333333" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_comidaof.xml" value="0.20520833333333333" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_menu.xml" value="0.33" />
-        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_registrar.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_orden.xml" value="0.20520833333333333" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_postre1.xml" value="0.20520833333333333" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_registrar.xml" value="0.25" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_toolbar_detalle.xml" value="0.20520833333333333" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_toolbar_orden.xml" value="0.20520833333333333" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_toolbarbeb.xml" value="0.20520833333333333" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_toolbarpost.xml" value="0.20520833333333333" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/registrar.xml" value="0.36666666666666664" />
         <entry key="..\:/ProyectiosAndroidd/proyecto3/app/src/main/res/layout/activity_ad.xml" value="0.25" />
         <entry key="..\:/ProyectiosAndroidd/proyecto3/app/src/main/res/layout/activity_bebidades.xml" value="0.22" />

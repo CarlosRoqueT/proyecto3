@@ -1,58 +1,56 @@
 package com.example.proyecto3;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-public class login extends AppCompatActivity implements Comunicacion{
+public class login extends AppCompatActivity{
 
 
+    private TextView registrate;
+    private EditText correo;
+    private  EditText password;
     private FirebaseAuth mAuth;
-
-    private ProgressBar pgbEjecutanto;
-    private Button btnIngresar;
-    private Button Registrar;
-    private TextView txtUsername, txtPassword;
+    private Button iniciar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
+        correo = findViewById(R.id.correo);
+        password = findViewById(R.id.password);
+        registrate = findViewById(R.id.registrateaqui);
         mAuth = FirebaseAuth.getInstance();
-        pgbEjecutanto = findViewById(R.id.pgbEjecutanto);
-        btnIngresar = findViewById(R.id.btnIngresar);
-        txtUsername = findViewById(R.id.txtUsername);
-        txtPassword = findViewById(R.id.txtPassword);
-        Registrar = findViewById(R.id.register);
+        iniciar = findViewById(R.id.iniciar);
 
-
-        btnIngresar.setOnClickListener(new View.OnClickListener() {
+        registrate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                new TareaAsincrona(login.this).execute(txtUsername.getText().toString(),
-                        txtPassword.getText().toString(), 3000);
+                abrirRegistro();
             }
         });
 
-        Registrar.setOnClickListener(new View.OnClickListener() {
+        iniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent =new Intent(login.this, Registrar.class);
-                startActivity(intent);
+                iniciarSesion();
             }
         });
+
     }
-
-    @Override
     public void onStart() {
         super.onStart();
         // Check if user is signed in (non-null) and update UI accordingly.
@@ -60,33 +58,33 @@ public class login extends AppCompatActivity implements Comunicacion{
         //updateUI(currentUser);
     }
 
-    @Override
-    public void toggleProgressBar(boolean status) {
-        if (status) {
-            pgbEjecutanto.setVisibility(View.VISIBLE);
-        } else {
-            pgbEjecutanto.setVisibility(View.GONE);
-        }
-    }
-
-    @Override
-    public void lanzarActividad(Class<?> tipoActividad) {
-        Intent intent = new Intent(this, tipoActividad);
-        startActivity(intent);
-    }
-
-    @Override
-    public void showMessage(String msg) {
-        Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
-    }
-
-
-    public void irIniciar(View view){
-
-        Intent i = new Intent(this, Menu.class);
+     public void abrirapp(){
+        Intent i = new Intent(login.this,bebida1.class);
         startActivity(i);
+     }
+     public void abrirRegistro(){
+        Intent i = new Intent(login.this,Registrar.class);
+        startActivity(i);
+     }
+     public void iniciarSesion(){
+        mAuth.signInWithEmailAndPassword(correo.getText().toString(),password.getText().toString()).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+                if(task.isSuccessful()){
+                   FirebaseUser user = mAuth.getCurrentUser();
+                    Toast.makeText(getApplicationContext(), "Inicio de sesion exitosa", Toast.LENGTH_SHORT).show();
+                    abriraplicacion();
+                }else{
+                    Toast.makeText(getApplicationContext(),"Authentication failed",Toast.LENGTH_SHORT).show();
 
-    }
+                }
+            }
+        });
 
+     }
+     public void abriraplicacion(){
+        Intent i = new Intent(login.this, Menu.class );
+        startActivity(i);
+     }
 
 }

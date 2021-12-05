@@ -1,107 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".login">
-
-    <ImageView
-        android:id="@+id/imgLogin"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="45dp"
-        android:src="@drawable/splash"
-        android:layout_gravity="center"/>
-
-    <TextView
-        android:id="@+id/txtHola"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Bienvenido"
-        android:textSize="35sp" />
-
-    <TextView
-        android:id="@+id/txtMensaje"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:layout_gravity="center"
-        android:text="Iniciar sesion"
-        android:textSize="20sp" />
-
-    <EditText
-        android:id="@+id/txtUsername"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:autofillHints="Usuario"
-        android:hint="Usuario"
-        android:inputType="text"
-        android:minHeight="48dp"
-        tools:ignore="LabelFor" />
-
-    <EditText
-        android:id="@+id/txtPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:autofillHints="Contraseña"
-        android:hint="Contraseña"
-        android:inputType="textPassword"
-        android:minHeight="48dp"
-        tools:ignore="LabelFor" />
+    tools:context=".Registrar">
 
     <LinearLayout
-        android:layout_marginTop="15dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center">
+        android:layout_width="358dp"
+        android:layout_height="712dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="190dp"
+            android:layout_height="171dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bienvenidos"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Iniciarsesion"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
 
         <Button
-            android:id="@+id/btnCancelar"
-            android:layout_width="wrap_content"
+            android:id="@+id/iniciar"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFF"
-            android:paddingStart="15dp"
-            android:paddingEnd="15dp"
-            android:text="Cancelar"
-            android:textColor="#757575"
-            android:textSize="17sp" />
-
-        <Button
-            android:id="@+id/btnIngresar"
-            android:layout_marginLeft="15dp"
-            android:layout_width="wrap_content"
+            android:backgroundTint="@color/purple_500"
+            android:text="Iniciar sesion"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/design_default_color_primary_dark"
-            android:paddingStart="15dp"
-            android:paddingEnd="15dp"
-            android:text="Ingresar"
-            android:textColor="#FFF"
-            android:textSize="18sp" />
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20dp"/>
 
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No tienes cuenta?"
+            android:textAlignment="center"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="7dp"/>
+
+        <TextView
+            android:id="@+id/registrateaqui"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:minHeight="48dp"
+            android:text="Registrate aqui"
+            android:textAlignment="center"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp" />
     </LinearLayout>
-
-    <ProgressBar
-        android:id="@+id/pgbEjecutanto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:visibility="gone"/>
-
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="match_parent"
-        android:layout_height="91dp"
-        android:text="TextView" />
-
-    <Button
-        android:id="@+id/register"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Registrarse" />
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

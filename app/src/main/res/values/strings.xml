@@ -2,4 +2,13 @@
     <string name="app_name">proyecto3</string>
     <string name="menu_principal">Menu Principal</string>
     <string name="seleccione_uno">Seleccione Uno</string>
+    <string name="Iniciarsesion">Iniciar sesion</string>
+    <string name="password">Contraseña</string>
+    <string name="user">Usuario</string>
+    <string name="unete">Unirse</string>
+    <string name="email">Correo</string>
+    <string name="alunirse">Al unirse acepta los terminos y la politica de privacidad.</string>
+    <string name="passwordconfirmation">Confirmar contraseña</string>
+    <string name="yatienescuenta">Ya tienes una cuenta?</string>
+    <string name="yatienescuentabutton"> Ingresa aqui.</string>
 </resources>
