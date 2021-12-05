@@ -5,6 +5,11 @@
     android:id="@+id/acercade"
     android:title="Acerca de nosotros"
     />
+    <item
+        android:id="@+id/contacto"
+        android:title="Contacto"
+        />
+
 
     <item
         android:id="@+id/atras"

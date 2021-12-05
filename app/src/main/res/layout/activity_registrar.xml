@@ -115,12 +115,13 @@
             android:text=""
             android:textAlignment="center"
             android:textSize="25dp" />
+
         <Button
             android:id="@+id/iniciar"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="61dp"
             android:onClick="registrarUsuario"
-            android:backgroundTint="@color/purple_500"
             android:text="Registrarse" />
 
         <TextView

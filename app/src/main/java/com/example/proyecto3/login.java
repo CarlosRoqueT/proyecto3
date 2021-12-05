@@ -65,21 +65,25 @@ public class login extends AppCompatActivity{
         Intent i = new Intent(login.this,Registrar.class);
         startActivity(i);
      }
+
      public void iniciarSesion(){
-        mAuth.signInWithEmailAndPassword(correo.getText().toString(),password.getText().toString()).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-            @Override
-            public void onComplete(@NonNull Task<AuthResult> task) {
-                if(task.isSuccessful()){
-                   FirebaseUser user = mAuth.getCurrentUser();
-                    Toast.makeText(getApplicationContext(), "Inicio de sesion exitosa", Toast.LENGTH_SHORT).show();
-                    abriraplicacion();
-                }else{
-                    Toast.makeText(getApplicationContext(),"Authentication failed",Toast.LENGTH_SHORT).show();
+        try {
+            mAuth.signInWithEmailAndPassword(correo.getText().toString(), password.getText().toString()).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                @Override
+                public void onComplete(@NonNull Task<AuthResult> task) {
+                    if (task.isSuccessful()) {
+                        FirebaseUser user = mAuth.getCurrentUser();
+                        Toast.makeText(getApplicationContext(), "Inicio de sesion exitosa", Toast.LENGTH_SHORT).show();
+                        abriraplicacion();
+                    } else {
+                        Toast.makeText(getApplicationContext(), "Error correo o pass", Toast.LENGTH_SHORT).show();
 
+                    }
                 }
-            }
-        });
-
+            });
+        }catch (Exception e){
+            Toast.makeText(this,"No deje campos vacios",Toast.LENGTH_SHORT).show();
+        }
      }
      public void abriraplicacion(){
         Intent i = new Intent(login.this, Menu.class );

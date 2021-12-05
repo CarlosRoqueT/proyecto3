@@ -22,7 +22,7 @@ public class Menu extends AppCompatActivity {
         comida.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent =new Intent(Menu.this, Comidaof.class);
+                Intent intent =new Intent(Menu.this, comida1.class);
                 startActivity(intent);
             }
         });
@@ -31,7 +31,7 @@ public class Menu extends AppCompatActivity {
         bebida.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent =new Intent(Menu.this, bebidaof.class);
+                Intent intent =new Intent(Menu.this, bebida1.class);
                 startActivity(intent);
             }
         });

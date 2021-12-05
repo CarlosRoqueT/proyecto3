@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">proyecto3</string>
+    <string name="app_name">Smart Order</string>
     <string name="menu_principal">Menu Principal</string>
     <string name="seleccione_uno">Seleccione Uno</string>
     <string name="Iniciarsesion">Iniciar sesion</string>
@@ -11,4 +11,6 @@
     <string name="passwordconfirmation">Confirmar contraseña</string>
     <string name="yatienescuenta">Ya tienes una cuenta?</string>
     <string name="yatienescuentabutton"> Ingresa aqui.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

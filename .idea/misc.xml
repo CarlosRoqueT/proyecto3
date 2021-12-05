@@ -3,22 +3,39 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_ad.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_bebida1.xml" value="0.20520833333333333" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_bebidades.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_bebidaes.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_bebidaof.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_comida1.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_comidades.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_comidaes.xml" value="0.20520833333333333" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_comidaof.xml" value="0.20520833333333333" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_menu.xml" value="0.33" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_orden.xml" value="0.20520833333333333" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_postre1.xml" value="0.20520833333333333" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_postresdes.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_registrar.xml" value="0.25" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_toolbar.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_toolbar_ad.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_toolbar_detalle.xml" value="0.20520833333333333" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_toolbar_orden.xml" value="0.20520833333333333" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_toolbarbeb.xml" value="0.20520833333333333" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_toolbarpost.xml" value="0.20520833333333333" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/fragment_bebidas_destacadas.xml" value="0.24010416666666667" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/fragment_bebidas_especiales.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/fragment_bebidas_ofertas.xml" value="0.152" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/fragment_comida_destacadas.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/fragment_comida_especiales.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/fragment_comida_ofertas.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/fragment_contacto.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/registrar.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/menu/acerca.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/menu/bottom_navigation.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/menu/menu2.xml" value="0.36666666666666664" />
         <entry key="..\:/ProyectiosAndroidd/proyecto3/app/src/main/res/layout/activity_ad.xml" value="0.25" />
         <entry key="..\:/ProyectiosAndroidd/proyecto3/app/src/main/res/layout/activity_bebidades.xml" value="0.22" />
@@ -48,13 +65,6 @@
         <entry key="..\:/ProyectiosAndroidd/proyecto3/app/src/main/res/layout/menu2.xml" value="0.1802536231884058" />
         <entry key="..\:/ProyectiosAndroidd/proyecto3/app/src/main/res/menu/acerca.xml" value="0.20416666666666666" />
         <entry key="..\:/ProyectiosAndroidd/proyecto3/app/src/main/res/menu/menu2.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/donal/Documents/GitHub/proyecto3/app/src/main/res/layout-land/activity_login.xml" value="0.1728395061728395" />
-        <entry key="..\:/Users/donal/Documents/GitHub/proyecto3/app/src/main/res/layout-land/activity_menu.xml" value="0.33" />
-        <entry key="..\:/Users/donal/Documents/GitHub/proyecto3/app/src/main/res/layout/activity_ad.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/donal/Documents/GitHub/proyecto3/app/src/main/res/layout/activity_comida1.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/donal/Documents/GitHub/proyecto3/app/src/main/res/layout/activity_comida2.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/donal/Documents/GitHub/proyecto3/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/donal/Documents/GitHub/proyecto3/app/src/main/res/layout/activity_menu.xml" value="0.25" />
       </map>
     </option>
   </component>

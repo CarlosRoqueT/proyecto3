@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/design_default_color_primary"
-    app:title="Bebidas"
+    android:background="@color/purple_500"
+    app:title="Bebidass"
     app:titleTextColor="#FFFFFF"
-    tools:context=".bebidaof">
+    tools:context=".bebida1">
+
 
 </androidx.appcompat.widget.Toolbar>

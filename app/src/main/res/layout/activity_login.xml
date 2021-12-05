@@ -26,7 +26,7 @@
             android:id="@+id/textView18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bienvenidos"
+            android:text="Bienvenido"
             android:textAlignment="center"
             android:textSize="30dp" />
 
@@ -48,6 +48,7 @@
 
         <TextView
             android:id="@+id/textView21"
+            style="@style/Widget.MaterialComponents.TextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/email"
@@ -73,6 +74,7 @@
 
         <EditText
             android:id="@+id/password"
+            style="@style/Widget.MaterialComponents.TextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -83,9 +85,9 @@
 
         <Button
             android:id="@+id/iniciar"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/purple_500"
+            android:layout_height="80dp"
             android:text="Iniciar sesion"
             android:textSize="15dp" />
         <TextView
