@@ -34,7 +34,7 @@
         android:backgroundTint="#FFFFFF"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintEnd_toStartOf="@+id/Cheeskake"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.497"
@@ -85,7 +85,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/Cheeskake"
         android:layout_width="134dp"
         android:layout_height="43dp"
         android:text="Tiramisu"
@@ -116,7 +116,7 @@
         android:fontFamily="serif"
         android:text="Para empezar la lista de los mejores postres del mundo gourmet tenemos un postre clasico infaltable que de seguro ya pertenece a uno de tus favoritos."
         android:textSize="11.5sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintBottom_toTopOf="@+id/Cheeskake"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/postof1"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
@@ -131,7 +131,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/postof2"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/Cheeskake" />
 
     <TextView
         android:id="@+id/textView8"

@@ -90,7 +90,7 @@
         app:layout_constraintVertical_bias="0.103" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/Cheeskake"
         android:layout_width="134dp"
         android:layout_height="43dp"
         android:layout_marginStart="22dp"
@@ -149,7 +149,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/postof2"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/Cheeskake" />
 
     <TextView
         android:id="@+id/textView8"

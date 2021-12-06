@@ -45,7 +45,7 @@ public class login extends AppCompatActivity{
 
         iniciar.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) { iniciarSesion();
+            public void onClick(View view) { abriraplicacion();
             }
         });
 
