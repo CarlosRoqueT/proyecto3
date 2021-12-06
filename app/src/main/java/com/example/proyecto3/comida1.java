@@ -20,6 +20,7 @@ public class comida1 extends AppCompatActivity {
     ComidaDestacadas cd = new ComidaDestacadas();
     ComidaEspeciales ce = new ComidaEspeciales();
     Contacto c = new Contacto();
+    AcercaDeNosotros ac = new AcercaDeNosotros();
 
 
 
@@ -47,7 +48,7 @@ public class comida1 extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.acercade:
-                Toast.makeText(this,"Presionaste acerca de",Toast.LENGTH_SHORT).show();
+                loadFragment(ac);
                 return true;
             case R.id.contacto:
                 loadFragment(c);

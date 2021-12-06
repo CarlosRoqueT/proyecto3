@@ -26,7 +26,7 @@
             android:id="@+id/textView18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bienvenido"
+            android:text="@string/bienvenido"
             android:textAlignment="center"
             android:textSize="30dp" />
 
@@ -88,7 +88,7 @@
             style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:text="Iniciar sesion"
+            android:text="@string/Iniciarsesion"
             android:textSize="15dp" />
         <TextView
             android:id="@+id/textView27"
@@ -102,9 +102,9 @@
             android:id="@+id/textView23"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="No tienes cuenta?"
+            android:text="@string/notienescuenta"
             android:textAlignment="center"
-            android:textSize="20dp"/>
+            android:textSize="20dp" />
         <TextView
             android:id="@+id/textView26"
             android:layout_width="match_parent"
@@ -119,7 +119,7 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:minHeight="48dp"
-            android:text="Registrate aqui"
+            android:text="@string/registrateaqui"
             android:textAlignment="center"
             android:textColor="@color/purple_500"
             android:textSize="20dp" />

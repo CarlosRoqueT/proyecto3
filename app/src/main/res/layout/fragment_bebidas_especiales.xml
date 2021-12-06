@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -58,19 +57,19 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="300dp"
-        android:layout_height="35dp"
+        android:layout_width="219dp"
+        android:layout_height="40dp"
         android:fontFamily="serif"
-        android:text="Especial del dia"
+        android:text="@string/Special"
         android:textColor="@color/purple_500"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintHorizontal_bias="0.227"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.102" />
+        app:layout_constraintVertical_bias="0.099" />
 
     <TextView
         android:id="@+id/textView3"
@@ -117,7 +116,7 @@
         android:layout_width="149dp"
         android:layout_height="97dp"
         android:fontFamily="serif"
-        android:text="Se sirve con vaso largo y estan preparadas con jugo de frutas, bebidas espumosas, aguas gasiosas y hielo. "
+        android:text="@string/longdrinksDescr"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -131,7 +130,7 @@
         android:layout_width="149dp"
         android:layout_height="97dp"
         android:fontFamily="serif"
-        android:text="Los Cocteles, son long drinks preparados con licor o destilado, bebida carbonatada (Ginger Ale, Sidra o Chanpagne). "
+        android:text="@string/Coolers"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -142,11 +141,11 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="149dp"
-        android:layout_height="97dp"
+        android:layout_width="153dp"
+        android:layout_height="121dp"
         android:fontFamily="serif"
-        android:text="Los Daisies son un tipo de coctel propio de la epoca estival, hechos a base de limon, granadina y como bebida base brandi, ron o ginebra. "
-        android:textSize="12sp"
+        android:text="@string/daise"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.938"

@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 <item
     android:id="@+id/acercade"
-    android:title="Acerca de nosotros"
+    android:title="@string/acercade"
     />
     <item
         android:id="@+id/contacto"
-        android:title="Contacto"
+        android:title="@string/contacto"
         />
 
 
@@ -22,4 +22,10 @@
         android:title="Orden"
         android:icon="@drawable/ordenn"
         app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/configuracion"
+        android:title="@string/Configuracion"
+        android:icon="@drawable/ic_baseline_settings_24"
+        />
 </menu>

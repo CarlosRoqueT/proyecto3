@@ -21,7 +21,10 @@ public class bebida1 extends AppCompatActivity {
     BebidasOfertas bo = new BebidasOfertas();
     BebidasEspeciales be = new BebidasEspeciales();
     BebidasDestacadas bd = new BebidasDestacadas();
+    Settings s = new Settings();
     Contacto c = new Contacto();
+    AcercaDeNosotros ac = new AcercaDeNosotros();
+
 
 
 
@@ -51,7 +54,7 @@ public class bebida1 extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.acercade:
-                Toast.makeText(this,"Presionaste acerca de",Toast.LENGTH_SHORT).show();
+                loadFragment(ac);
                 return true;
             case R.id.contacto:
                 loadFragment(c);
@@ -59,6 +62,9 @@ public class bebida1 extends AppCompatActivity {
             case R.id.atras:
                 Intent intent =new Intent(bebida1.this, com.example.proyecto3.Menu.class);
                 startActivity(intent);
+                return true;
+            case R.id.configuracion:
+                loadFragment(s);
                 return true;
 
         }

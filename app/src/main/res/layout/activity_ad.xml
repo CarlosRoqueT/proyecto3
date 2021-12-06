@@ -33,7 +33,7 @@
         android:layout_marginTop="12dp"
         android:layout_marginBottom="220dp"
         android:fontFamily="serif"
-        android:text="Somos un grupo de programadores con el objetivo de optimizar una metodologia de comercio tal como lo es un restaurante, optimizar la forma de pedidos del cliente haciendo uso de la tecnologia de los smartphones hoy en dia."
+        android:text="@string/Acercadenosotros"
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

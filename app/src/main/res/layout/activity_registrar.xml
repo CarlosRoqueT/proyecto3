@@ -22,7 +22,7 @@
             android:id="@+id/textView18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Registrarse"
+            android:text="@string/registrarse"
             android:textAlignment="center"
             android:textSize="30dp" />
         <TextView
@@ -122,7 +122,7 @@
             android:layout_width="match_parent"
             android:layout_height="61dp"
             android:onClick="registrarUsuario"
-            android:text="Registrarse" />
+            android:text="@string/registrarse" />
 
         <TextView
             android:id="@+id/textView25"

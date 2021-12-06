@@ -18,7 +18,7 @@ public class postre1 extends AppCompatActivity {
     PostresOfertas po = new PostresOfertas();
     PostresDestacados pd = new PostresDestacados();
     PostresEspeciales pe = new PostresEspeciales();
-
+    AcercaDeNosotros ac = new AcercaDeNosotros();
     Contacto c = new Contacto();
 
 
@@ -47,7 +47,7 @@ public class postre1 extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.acercade:
-                Toast.makeText(this,"Presionaste acerca de",Toast.LENGTH_SHORT).show();
+                loadFragment(ac);
                 return true;
             case R.id.contacto:
                 loadFragment(c);

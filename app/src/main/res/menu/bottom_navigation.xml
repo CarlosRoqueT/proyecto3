@@ -4,16 +4,16 @@
     <item
         android:id="@+id/firstFragment"
         android:icon="@drawable/ic_baseline_local_offer_24"
-        android:title="Ofertas"/>
+        android:title="@string/ofertas"/>
 
     <item
         android:id="@+id/secondFragment"
         android:icon="@drawable/ic_baseline_star_24"
-        android:title="Destacados"/>
+        android:title="@string/featured"/>
 
     <item
         android:id="@+id/thirdFragment"
         android:icon="@drawable/ic_baseline_local_cafe_24"
-        android:title="Especial del dia"/>
+        android:title="@string/Special"/>
 
 </menu>

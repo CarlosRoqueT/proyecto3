@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Order</string>
+    <string name="menu_principal">Main menu</string>
+    <string name="seleccione_uno">Choose one</string>
+    <string name="Iniciarsesion">Log in</string>
+    <string name="password">Password</string>
+    <string name="user">email</string>
+    <string name="sharebutt">Share</string>
+    <string name="bienvenido">Welcome</string>
+    <string name="registrarse">Sing in</string>
+    <string name="unete">Join</string>
+    <string name="share">Can share our app if you are enjoying</string>
+    <string name="notienescuenta">You do not have an account?</string>
+    <string name="registrateaqui">Join now</string>
+    <string name="email">Email</string>
+    <string name="nightmode">Night mode</string>
+    <string name="daymode">Day mode</string>
+    <string name="changelang">Switch language</string>
+    <string name="alunirse">By joining you accept the terms and privacy policy.</string>
+    <string name="passwordconfirmation">Confirm password</string>
+    <string name="yatienescuenta">Do you have an account</string>
+    <string name="yatienescuentabutton"> Tap here </string>
+    <string name="Coolers">The cocktails are long drinks prepared with liquor or distillate, carbonated drink (Ginger Ale, Cider or Chanpagne).</string>
+    <string name="longdrinksDescr">They are served with a long glass and are prepared with fruit juice, sparkling drinks, carbonated waters and ice.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ofertas">Offers</string>
+    <string name="featured">Featured</string>
+    <string name="enviaremail">Send email</string>
+    <string name="Contactanos">Contact us</string>
+    <string name="Estamosdispo">We are available at 24 hours.</string>
+    <string name="Special">Day Special</string>
+    <string name="contacto">Contact</string>
+    <string name="Acercadenosotros">We are a group of programmers with the aim of optimizing a commerce methodology such as a restaurant, optimizing the customer order form making use of the technology of smartphones nowadays</string>
+    <string name="Configuracion">Settings</string>
+    <string name="daise">Daisies are a type of cocktail typical of the summer season, made with lemon, grenadine and as a base drink brandy, rum or gin.</string>
+    <string name="acercade">About us</string>
+</resources>

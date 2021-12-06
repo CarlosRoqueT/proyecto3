@@ -54,6 +54,7 @@ public class Registrar extends AppCompatActivity {
     }
 
     public void registrarUsuario(View view){
+        try{
         if(password.getText().toString().equals(passconfirmation.getText().toString())){
             mAuth.createUserWithEmailAndPassword(correo.getText().toString(),password.getText().toString())
                     .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -69,7 +70,7 @@ public class Registrar extends AppCompatActivity {
                                 //updateUI(user);
                             } else {
                                 // If sign in fails, display a message to the user.
-                                Toast.makeText(getApplicationContext(),"Error de autenticacion",Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(),"Error de autenticacion, o el usuario ya existe",Toast.LENGTH_SHORT).show();
                             }
                         }
 
@@ -77,6 +78,8 @@ public class Registrar extends AppCompatActivity {
         }else{
             Toast.makeText(this,"Los pass no coinciden wey",Toast.LENGTH_SHORT).show();
 
+        }}catch (Exception e){
+            Toast.makeText(this,"No deje campos vacios",Toast.LENGTH_SHORT).show();
         }
     }
     public void abrirInicio(){
