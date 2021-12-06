@@ -61,7 +61,7 @@
         android:layout_height="30dp"
         android:fontFamily="serif"
         android:text="Ofertas"
-        android:textColor="#AC09C8"
+        android:textColor="@color/purple_500"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

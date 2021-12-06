@@ -57,11 +57,11 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="90dp"
+        android:layout_width="300dp"
         android:layout_height="30dp"
         android:fontFamily="serif"
         android:text="Destacados"
-        android:textColor="#AC09C8"
+        android:textColor="@color/purple_500"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

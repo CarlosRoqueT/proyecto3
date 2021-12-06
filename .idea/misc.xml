@@ -18,6 +18,7 @@
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_orden.xml" value="0.20520833333333333" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_postre1.xml" value="0.20520833333333333" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_postresdes.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_postreses.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_registrar.xml" value="0.25" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/activity_toolbar.xml" value="0.36666666666666664" />
@@ -33,6 +34,9 @@
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/fragment_comida_especiales.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/fragment_comida_ofertas.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/fragment_contacto.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/fragment_postres_destacados.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/fragment_postres_especiales.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/fragment_postres_ofertas.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/layout/registrar.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/menu/acerca.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioFinalProyect/proyecto3/app/src/main/res/menu/bottom_navigation.xml" value="0.25416666666666665" />

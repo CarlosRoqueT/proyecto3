@@ -5,6 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".bottomNavigation">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_500"/>
 
     <FrameLayout
         android:id="@+id/frame_container"
@@ -15,12 +20,12 @@
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottom_navigation"
+            style="@style/BottomNavigation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:menu="@menu/bottom_navigation"
             android:layout_gravity="bottom"
             android:elevation="20dp"
-            style="@style/BottomNavigation"/>
+            app:menu="@menu/bottom_navigation" />
     </FrameLayout>
 
 </RelativeLayout>

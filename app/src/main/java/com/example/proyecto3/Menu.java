@@ -40,7 +40,7 @@ public class Menu extends AppCompatActivity {
         postres.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent =new Intent(Menu.this, postresof.class);
+                Intent intent =new Intent(Menu.this, postre1.class);
                 startActivity(intent);
             }
         });

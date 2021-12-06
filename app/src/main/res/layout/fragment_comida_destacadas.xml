@@ -61,7 +61,7 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="140dp"
+        android:layout_width="300dp"
         android:layout_height="30dp"
         android:fontFamily="serif"
         android:text="Destacados"
