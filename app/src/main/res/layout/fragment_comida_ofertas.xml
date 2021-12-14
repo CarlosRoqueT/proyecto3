@@ -35,7 +35,7 @@
         app:srcCompat="@drawable/comida2" />
 
     <Button
-        android:id="@+id/buttonagregarbirria"
+        android:id="@+id/buttoncuenta"
         android:layout_width="386dp"
         android:layout_height="53dp"
         android:text="Agregar"

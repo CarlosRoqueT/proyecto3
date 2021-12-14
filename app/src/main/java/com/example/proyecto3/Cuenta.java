@@ -1,12 +1,20 @@
 package com.example.proyecto3;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.Toast;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -23,6 +31,9 @@ public class Cuenta extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    public ArrayList<String> orden;
+    private String datos;
+    private Button devolver;
 
     public Cuenta() {
         // Required empty public constructor
@@ -61,4 +72,36 @@ public class Cuenta extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_cuenta, container, false);
     }
-}
+
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+
+
+        devolver = getView().findViewById(R.id.buttoncuenta);
+
+            devolver.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+
+                    Bundle datosRecuperados = new Bundle();
+
+                    if (datosRecuperados == null) {
+                        Toast.makeText(getContext(), "No jala", Toast.LENGTH_SHORT).show();
+                        return;
+                    }else {
+                        orden = datosRecuperados.getStringArrayList("orden");
+
+                        Toast.makeText(getContext(), "Si jala", Toast.LENGTH_SHORT).show();
+
+                        for (int i = 0; i <= orden.size() - 1; i++) {
+                            Toast.makeText(getContext(), Integer.toString(i + 1), Toast.LENGTH_SHORT).show();
+                            datos = orden.get(i);
+                            Toast.makeText(getContext(), datos, Toast.LENGTH_SHORT).show();
+                        }
+                    }
+
+                }
+            });
+        }
+
+
+    }

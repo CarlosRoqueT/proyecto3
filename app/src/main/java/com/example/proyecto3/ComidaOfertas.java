@@ -4,8 +4,6 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatDelegate;
-import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -32,6 +30,8 @@ public class ComidaOfertas extends Fragment {
     private String mParam2;
     private Integer suma = 0;
     private Button agregarBirria;
+    private Bundle datosAEnviar;
+    Fragment fragmentcuenta = new Cuenta();
     public ArrayList<String> orden;
     private Button button1;
     public ComidaOfertas() {
@@ -75,7 +75,7 @@ public class ComidaOfertas extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
     orden = new ArrayList<>();
-    agregarBirria = getView().findViewById(R.id.buttonagregarbirria);
+    agregarBirria = getView().findViewById(R.id.buttoncuenta);
     buttondevolver = getView().findViewById(R.id.devolver);
 
     agregarBirria.setOnClickListener(new View.OnClickListener() {
@@ -91,6 +91,12 @@ public class ComidaOfertas extends Fragment {
             orden.add(dato.getText().toString());
             Toast.makeText(getContext(),dato.getText().toString(),Toast.LENGTH_SHORT).show();
             Toast.makeText(getContext(),dacio,Toast.LENGTH_SHORT).show();
+            datosAEnviar = new Bundle();
+
+
+            datosAEnviar.putStringArrayList("orden",orden);
+            fragmentcuenta.setArguments(datosAEnviar);
+
         }
     });
 
