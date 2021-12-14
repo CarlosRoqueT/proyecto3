@@ -14,7 +14,7 @@
     <string name="notienescuenta">You do not have an account?</string>
     <string name="registrateaqui">Join now</string>
     <string name="email">Email</string>
-    <string name="nightmode">Night mode</string>
+    <string name="nightmode">Change theme</string>
     <string name="daymode">Day mode</string>
     <string name="changelang">Switch language</string>
     <string name="alunirse">By joining you accept the terms and privacy policy.</string>
@@ -33,6 +33,9 @@
     <string name="contacto">Contact</string>
     <string name="Acercadenosotros">We are a group of programmers with the aim of optimizing a commerce methodology such as a restaurant, optimizing the customer order form making use of the technology of smartphones nowadays</string>
     <string name="Configuracion">Settings</string>
+    <string name="food">Food</string>
+    <string name="drinks">Drinks</string>
+    <string name="desserts">Desserts</string>
     <string name="daise">Daisies are a type of cocktail typical of the summer season, made with lemon, grenadine and as a base drink brandy, rum or gin.</string>
     <string name="acercade">About us</string>
 </resources>

@@ -15,6 +15,8 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+
 
 public class ComidaOfertas extends Fragment {
 
@@ -24,10 +26,13 @@ public class ComidaOfertas extends Fragment {
     private static final String ARG_PARAM2 = "param2";
 
     // TODO: Rename and change types of parameters
+    private Button buttondevolver;
     private String mParam1;
-    private TextView nombre;
-    private String datos;
+    private String datos = "";
     private String mParam2;
+    private Integer suma = 0;
+    private Button agregarBirria;
+    public ArrayList<String> orden;
     private Button button1;
     public ComidaOfertas() {
         // Required empty public constructor
@@ -57,8 +62,6 @@ public class ComidaOfertas extends Fragment {
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
-
-
         }
     }
 
@@ -71,16 +74,40 @@ public class ComidaOfertas extends Fragment {
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+    orden = new ArrayList<>();
+    agregarBirria = getView().findViewById(R.id.buttonagregarbirria);
+    buttondevolver = getView().findViewById(R.id.devolver);
 
-        button1 = getView().findViewById(R.id.button1);
-        nombre = getView().findViewById(R.id.Cheeskake);
-        datos += nombre.getText();
-        button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+    agregarBirria.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            TextView dato;
+            TextView precio;
+            String dacio;
+            dato = getView().findViewById(R.id.nachos);
+            precio = getView().findViewById(R.id.precionachos);
+            suma = suma + Integer.parseInt(precio.getText().toString());
+            dacio = Integer.toString(suma);
+            orden.add(dato.getText().toString());
+            Toast.makeText(getContext(),dato.getText().toString(),Toast.LENGTH_SHORT).show();
+            Toast.makeText(getContext(),dacio,Toast.LENGTH_SHORT).show();
+        }
+    });
+
+    buttondevolver.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            for(int i = 0; i <= orden.size()-1;i++){
+                Toast.makeText(getContext(),Integer.toString(i +1 ),Toast.LENGTH_SHORT).show();
+                datos = orden.get(i);
                 Toast.makeText(getContext(),datos,Toast.LENGTH_SHORT).show();
             }
-        });
+
+        }
+    });
+
+
+
 
     }
 

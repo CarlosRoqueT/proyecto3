@@ -15,12 +15,18 @@ import android.widget.Toast;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
+import java.util.ArrayList;
+
 public class comida1 extends AppCompatActivity {
     ComidaOfertas co = new ComidaOfertas();
     ComidaDestacadas cd = new ComidaDestacadas();
     ComidaEspeciales ce = new ComidaEspeciales();
     Contacto c = new Contacto();
+    Cuenta o = new Cuenta();
     AcercaDeNosotros ac = new AcercaDeNosotros();
+
+    public ArrayList<String> orden;
+
 
 
 
@@ -49,6 +55,9 @@ public class comida1 extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.acercade:
                 loadFragment(ac);
+                return true;
+            case R.id.orden:
+                loadFragment(o);
                 return true;
             case R.id.contacto:
                 loadFragment(c);

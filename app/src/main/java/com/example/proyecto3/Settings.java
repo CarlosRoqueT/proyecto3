@@ -86,14 +86,21 @@ public class Settings extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         noche = getView().findViewById(R.id.buttonnoche);
-        dia = getView().findViewById(R.id.buttondia);
-        idioma = getView().findViewById(R.id.buttonidioma);
+
 
         noche.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-            }
+                    int nightMode = AppCompatDelegate.getDefaultNightMode();
+                    if (nightMode == AppCompatDelegate.MODE_NIGHT_YES) {
+                        AppCompatDelegate.setDefaultNightMode
+                                (AppCompatDelegate.MODE_NIGHT_NO);
+                    } else {
+                        AppCompatDelegate.setDefaultNightMode
+                                (AppCompatDelegate.MODE_NIGHT_YES);
+                    }
+
+                }
         });
         dia.setOnClickListener(new View.OnClickListener() {
             @Override
